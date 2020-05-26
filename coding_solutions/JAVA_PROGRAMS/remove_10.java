@@ -8,7 +8,7 @@ public static void main(String args[])
 	Scanner s=new Scanner(System.in);
 	n=s.nextInt();
 	int a[]=new int [n];
-	System.out.printf("Enter %d array elements seperated by space",n);
+	System.out.printf("Enter %d array elements seperated by space which includes atleast two 10",n);
 	System.out.println();
 	for(i=0;i<n;i++)				//for input of array 
 	{																
