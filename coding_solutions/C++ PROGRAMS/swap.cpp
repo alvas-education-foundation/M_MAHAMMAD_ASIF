@@ -9,14 +9,14 @@ clas sawp
 	 cout << "Enter Two Numbers :";
 	 cin >> x>>y;
 	}
-	friend void swap(temp &t);
+	friend void swap(r &t);
 	void display() 
 	{
 	 cout << "After Swap x is :" << x;
 	 cout << "After Swap y is :" << y;
 	}
 };
-	void swap(temp &t) 
+	void swap(r &t) 
 	{
 	    t.q = t.x;
 	    t.x = t.y;
@@ -24,7 +24,7 @@ clas sawp
 	}
 int main() 
 {
-    temp t1;
+    r t1;
     t1.input();
     swap(t1);
     t1.display();
