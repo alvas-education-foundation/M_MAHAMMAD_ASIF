@@ -1,6 +1,6 @@
 #include<iostream.h>
 
-clas sawp
+clas fri
 {
  int x, y, q;
  public:
@@ -9,14 +9,14 @@ clas sawp
 	 cout << "Enter Two Numbers :";
 	 cin >> x>>y;
 	}
-	friend void swap(r &t);
+	friend void swap(fri &t);
 	void display() 
 	{
 	 cout << "After Swap x is :" << x;
 	 cout << "After Swap y is :" << y;
 	}
 };
-	void swap(r &t) 
+	void swap(fri &t) 
 	{
 	    t.q = t.x;
 	    t.x = t.y;
@@ -24,7 +24,7 @@ clas sawp
 	}
 int main() 
 {
-    r t1;
+    fri t1;
     t1.input();
     swap(t1);
     t1.display();
