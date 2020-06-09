@@ -39,12 +39,11 @@ void displayMatrix(int matrix[][M])
   
  
 } 
-
 int main() { 
-  int matrix[N][M] = {{12, 23, 34}, 
-                     {45, 56, 67},  
-                     {78, 89, 91}}; 
-  int k = 2; 
+  int matrix[N][M] = {{10, 20, 30}, 
+                     {40, 50, 60},  
+                     {70, 80, 90}}; 
+  int k = 1; 
   
   
   rotateMatrix(matrix, k); 
